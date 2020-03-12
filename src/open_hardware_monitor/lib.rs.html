@@ -130,7 +130,7 @@
 <span class="kw">pub</span> <span class="kw">use</span> <span class="ident">open_hardware_monitor_sys</span>::{<span class="ident">FFIHardware</span>, <span class="ident">FFIHardwareType</span>, <span class="ident">FFISensor</span>, <span class="ident">FFISensorType</span>};
 
 <span class="attribute">#[<span class="ident">derive</span>(<span class="ident">Debug</span>, <span class="ident">Fail</span>)]</span>
-<span class="kw">pub</span> <span class="kw">enum</span> <span class="ident">ComputerError</span> {
+<span class="kw">enum</span> <span class="ident">ComputerError</span> {
   <span class="attribute">#[<span class="ident">fail</span>(<span class="ident">display</span> <span class="op">=</span> <span class="string">&quot;pointer is null&quot;</span>)]</span>
   <span class="ident">Null</span>,
 }
