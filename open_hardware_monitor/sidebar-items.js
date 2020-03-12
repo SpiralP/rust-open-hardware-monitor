@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["ComputerError",""],["FFIHardwareType",""],["FFISensorType",""]],"struct":[["Computer",""],["FFIHardware",""],["FFISensor",""],["Hardware",""],["Sensor",""]]});
