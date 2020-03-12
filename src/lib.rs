@@ -9,7 +9,7 @@ use open_hardware_monitor_sys::{
 pub use open_hardware_monitor_sys::{FFIHardware, FFIHardwareType, FFISensor, FFISensorType};
 
 #[derive(Debug, Fail)]
-pub enum ComputerError {
+enum ComputerError {
   #[fail(display = "pointer is null")]
   Null,
 }
